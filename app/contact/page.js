@@ -69,7 +69,7 @@ export default function ContactPage() {
                         </p>
                         <div className={styles.infoItem}>
                             <FaPhoneAlt className={styles.icon} />
-                            <span>+91 8080228441</span>
+                            <span>+91 9420916671</span>
                         </div>
                         <div className={styles.infoItem}>
                             <FaEnvelope className={styles.icon} />
