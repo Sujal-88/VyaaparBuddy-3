@@ -54,7 +54,7 @@ const Navbar = () => {
                                 </Link>
                             ))}
                             <Link
-                                href="#contact"
+                                href="contact"
                                 className="bg-orange-500 text-white hover:bg-orange-600 px-4 py-2 rounded-md text-sm font-semibold transition-colors duration-300 shadow-sm"
                             >
                                 Contact Us
