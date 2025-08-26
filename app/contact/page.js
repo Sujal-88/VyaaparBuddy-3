@@ -2,7 +2,6 @@
 'use client';
 
 import { useState } from 'react';
-import Head from 'next/head';
 import styles from '@/styles/Contact.module.css';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
@@ -53,12 +52,6 @@ export default function ContactPage() {
         }
     };
     return (
-        <>
-            <Head>
-                <title>Contact Us | Vyaapar Buddy</title>
-                <meta name="description" content="Get in touch with the Vyaapar Buddy team." />
-            </Head>
-
             <main className={styles.contactContainer}>
                 <div className={styles.header}>
                     <h1 className={styles.title}>Get in Touch</h1>
@@ -133,6 +126,5 @@ export default function ContactPage() {
                     {status && <p className={styles.statusMessage}>{status}</p>} {/* Display status message */}
                 </div>
             </main>
-        </>
     );
 }
