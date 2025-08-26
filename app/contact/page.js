@@ -60,7 +60,7 @@ export default function ContactPage() {
                 <div className={styles.header}>
                     <h1 className={styles.title}>Get in Touch</h1>
                     <p className={styles.subtitle}>
-                        Have a project in mind or just want to say hello? We'd love to hear from you.
+                        Have a project in mind or just want to say hello? We&apos;d love to hear from you.
                     </p>
                 </div>
 

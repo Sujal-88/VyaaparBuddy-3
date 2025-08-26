@@ -36,7 +36,7 @@ export default function AboutPage() {
       <main className={styles.aboutContainer}>
         {/* Header Section */}
         <section className={styles.header}>
-          <h1 className={styles.title}>We're Your Partner in Growth</h1>
+          <h1 className={styles.title}>We&apos;re Your Partner in Growth</h1>
           <p className={styles.subtitle}>
             Vyaapar Buddy started with a simple mission: to help businesses of all sizes navigate the complexities of the digital world and achieve real, measurable growth.
           </p>
