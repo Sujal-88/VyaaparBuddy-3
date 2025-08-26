@@ -7,6 +7,9 @@ import styles from '@/styles/Contact.module.css';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
 
 export default function ContactPage() {
+
+    const [status, setStatus] = useState('');
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -26,7 +29,7 @@ export default function ContactPage() {
 
         const data = {
             ...formData,
-            access_key: 'NEXT_PUBLIC_WEB3FORMS_KEY', // 👈 Paste your key here
+            access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY, // 👈 Paste your key here
             subject: `New Message from ${formData.name}`,
         };
 
