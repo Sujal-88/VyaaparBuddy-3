@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 // Removed 'next/image' and 'next/link' as they are specific to a Next.js environment.
 // We will use standard <img> and <a> tags instead.
 import { Menu, X } from 'lucide-react';
+import Link from 'next/link';
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -27,7 +28,7 @@ const Navbar = () => {
                     {/* --- Logo Section --- */}
                     <div className="flex-shrink-0">
                         {/* Replaced Next.js Link with a standard anchor tag <a> */}
-                        <a href="/" className="flex items-center">
+                        <Link href="/" className="flex items-center">
                             {/* Replaced Next.js Image with a standard img tag <img> */}
                             <img
                                 src="/assets/logo.png"
@@ -37,27 +38,27 @@ const Navbar = () => {
                                 className="rounded"
                                 onError={(e) => { e.currentTarget.src = 'https://placehold.co/120x30/f97316/white?text=Logo'; }}
                             />
-                        </a>
+                        </Link>
                     </div>
 
                     {/* --- Desktop Navigation Links --- */}
                     <div className="hidden md:block">
                         <div className="ml-4 flex items-center space-x-4">
                             {navLinks.map((link) => (
-                                <a
+                                <Link
                                     key={link.href}
                                     href={link.href}
                                     className="text-slate-800 hover:text-orange-500 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300"
                                 >
                                     {link.label}
-                                </a>
+                                </Link>
                             ))}
-                            <a
+                            <Link
                                 href="#contact"
                                 className="bg-orange-500 text-white hover:bg-orange-600 px-4 py-2 rounded-md text-sm font-semibold transition-colors duration-300 shadow-sm"
                             >
                                 Contact Us
-                            </a>
+                            </Link>
                         </div>
                     </div>
 
