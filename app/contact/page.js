@@ -24,15 +24,17 @@ export default function ContactPage() {
     };
 
     const handleSubmit = async (e) => {
-        e.preventDefault();
+    e.preventDefault();
+    setStatus('Sending...');
 
-        const data = {
-            ...formData,
-            access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY, // 👈 Paste your key here
-            subject: `New Message from ${formData.name}`,
-        };
+    const data = {
+        ...formData,
+        access_key: process.env.NEXT_PUBLIC_WEB3FORMS_KEY,
+        subject: `New Message from ${formData.name}`,
+    };
 
-        setStatus('Sending...');
+    // 👇 This is the new, more robust part
+    try {
         const response = await fetch("https://api.web3forms.com/submit", {
             method: "POST",
             headers: {
@@ -47,10 +49,14 @@ export default function ContactPage() {
             setStatus('Message sent successfully!');
             setFormData({ name: '', email: '', message: '' }); // Reset form
         } else {
-            console.log("Error", result);
+            console.log("Error from Web3Forms:", result);
             setStatus(result.message);
         }
-    };
+    } catch (error) {
+        console.error("Submission Error:", error);
+        setStatus('Something went wrong. Please try again.');
+    }
+};
     return (
             <main className={styles.contactContainer}>
                 <div className={styles.header}>
