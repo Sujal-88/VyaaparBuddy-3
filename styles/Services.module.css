@@ -1,12 +1,7 @@
 /* styles/Services.module.css */
 
 /* Define the theme colors */
-:root {
-  --primary-orange: #F97316; /* A vibrant orange */
-  --light-gray: #f4f4f5;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-}
+
 
 .servicesContainer {
   padding: 4rem 1rem;

@@ -1,11 +1,5 @@
 /* styles/Portfolio.module.css */
 
-:root {
-  --primary-orange: #F97316;
-  --light-gray: #f4f4f5;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-}
 
 .portfolioContainer {
   padding: 4rem 1rem;

@@ -1,11 +1,6 @@
 /* styles/Contact.module.css */
 
-:root {
-  --primary-orange: #F97316;
-  --text-dark: #1f2937;
-  --text-light: #6b7280;
-  --border-color: #d1d5db;
-}
+
 
 .contactContainer {
   padding: 4rem 1rem;
