@@ -11,12 +11,12 @@ const teamMembers = [
   {
     name: 'Harsh Dound',
     role: 'Founder & CEO',
-    image: 'https://placehold.co/400x400/F97316/FFFFFF?text=RS',
+    image: 'https://drive.google.com/file/d/1gSeawWiwhvdDaT-q3P_-mVzgQZ8Jyfyb/view?usp=drivesdk',
   },
   {
     name: 'Swami Pawtekar',
     role: 'Head of Marketing',
-    image: 'https://placehold.co/400x400/F97316/FFFFFF?text=PM',
+    image: 'https://drive.google.com/file/d/1jTA6bm9WukYZOUfK9YawHhSnNESHsvuk/view?usp=drivesdk',
   },
   {
     name: 'Sujal Kothale',
