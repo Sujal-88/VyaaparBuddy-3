@@ -11,12 +11,12 @@ const teamMembers = [
   {
     name: 'Harsh Dound',
     role: 'Founder & CEO',
-    image: 'https://drive.google.com/file/d/1gSeawWiwhvdDaT-q3P_-mVzgQZ8Jyfyb/view?usp=drivesdk',
+    image: '/images/harsh.jpg',
   },
   {
     name: 'Swami Pawtekar',
     role: 'Head of Marketing',
-    image: 'https://drive.google.com/file/d/1jTA6bm9WukYZOUfK9YawHhSnNESHsvuk/view?usp=drivesdk',
+    image: '/images/swami.webp',
   },
   {
     name: 'Sujal Kothale',
