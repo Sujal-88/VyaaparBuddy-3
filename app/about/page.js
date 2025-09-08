@@ -17,12 +17,12 @@ const teamMembers = [
   {
     name: 'Swami Pawtekar',
     role: 'Head of Marketing',
-    image: '/images/swami.webp',
+    image: '/images/swami.jpg',
   },
   {
     name: 'Sujal Kothale',
     role: 'Lead Developer',
-    image: '/images/sujal.png',
+    image: '/images/SDK.png',
   },
 ];
 
