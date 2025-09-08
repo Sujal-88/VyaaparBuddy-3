@@ -11,25 +11,18 @@ const teamMembers = [
   {
     name: 'Harsh Dound',
     role: 'Founder & CEO',
-<<<<<<< HEAD
-    image: '/assets/harsh.jpg',
-=======
+
     image: '/images/harsh.jpg',
->>>>>>> bd94736c55fe6f806a106cdbfd94fd8c9561c4c6
   },
   {
     name: 'Swami Pawtekar',
     role: 'Head of Marketing',
-<<<<<<< HEAD
-    image: '/assets/swami.jpg',
-=======
     image: '/images/swami.webp',
->>>>>>> bd94736c55fe6f806a106cdbfd94fd8c9561c4c6
   },
   {
     name: 'Sujal Kothale',
     role: 'Lead Developer',
-    image: '/assets/SDK.png',
+    image: '/images/sujal.png',
   },
 ];
 
