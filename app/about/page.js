@@ -11,17 +11,17 @@ const teamMembers = [
   {
     name: 'Harsh Dound',
     role: 'Founder & CEO',
-    image: 'https://placehold.co/400x400/F97316/FFFFFF?text=RS',
+    image: '/assets/harsh.jpg',
   },
   {
     name: 'Swami Pawtekar',
     role: 'Head of Marketing',
-    image: 'https://placehold.co/400x400/F97316/FFFFFF?text=PM',
+    image: '/assets/swami.jpg',
   },
   {
     name: 'Sujal Kothale',
     role: 'Lead Developer',
-    image: 'https://placehold.co/400x400/F97316/FFFFFF?text=AS',
+    image: '/assets/SDK.png',
   },
 ];
 
@@ -29,8 +29,8 @@ export default function AboutPage() {
   return (
     <>
       <Head>
-        <title>About Us | Vyaapar Buddy</title>
-        <meta name="description" content="Learn about the mission, vision, and team behind Vyaapar Buddy." />
+        <title>About Us | Vyapaar Buddy</title>
+        <meta name="description" content="Learn about the mission, vision, and team behind Vyapaar Buddy." />
       </Head>
 
       <main className={styles.aboutContainer}>
@@ -38,7 +38,7 @@ export default function AboutPage() {
         <section className={styles.header}>
           <h1 className={styles.title}>We&apos;re Your Partner in Growth</h1>
           <p className={styles.subtitle}>
-            Vyaapar Buddy started with a simple mission: to help businesses of all sizes navigate the complexities of the digital world and achieve real, measurable growth.
+            Vyapaar Buddy started with a simple mission: to help businesses of all sizes navigate the complexities of the digital world and achieve real, measurable growth.
           </p>
         </section>
 

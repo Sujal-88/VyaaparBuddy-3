@@ -47,7 +47,7 @@ export default function Home() {
               Vyapaar<span className="text-orange-500">Buddy</span>
             </h1>
             <p className="mt-6 text-lg text-slate-600 max-w-lg mx-auto md:mx-0">
-              Welcome to Vyaapar Buddy, your trusted partner in navigating the digital marketplace. We craft bespoke strategies that drive growth, engagement, and success for businesses of all sizes.
+              Welcome to Vyapaar Buddy, your trusted partner in navigating the digital marketplace. We craft bespoke strategies that drive growth, engagement, and success for businesses of all sizes.
             </p>
             <div className="mt-8 flex justify-center md:justify-start gap-4">
               <a href="services" className="bg-orange-500 text-white px-6 py-3 rounded-lg font-semibold shadow-lg hover:bg-orange-600 transition-all duration-300">

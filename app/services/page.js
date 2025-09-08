@@ -49,15 +49,15 @@ export default function ServicesPage() {
     return (
         <>
             <Head>
-                <title>Our Services | Vyaapar Buddy</title>
-                <meta name="description" content="Explore the marketing services offered by Vyaapar Buddy to grow your business." />
+                <title>Our Services | Vyapaar Buddy</title>
+                <meta name="description" content="Explore the marketing services offered by Vyapaar Buddy to grow your business." />
             </Head>
 
             <main className={styles.servicesContainer}>
                 <div className={styles.header}>
                     <h1 className={styles.title}>What We Offer</h1>
                     <p className={styles.subtitle}>
-                        At Vyaapar Buddy, we provide a complete suite of marketing solutions to help your business thrive in the digital world.
+                        At Vyapaar Buddy, we provide a complete suite of marketing solutions to help your business thrive in the digital world.
                     </p>
                 </div>
 

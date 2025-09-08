@@ -50,8 +50,8 @@ export default function BlogPage() {
   return (
     <>
       <Head>
-        <title>Blog | Vyaapar Buddy</title>
-        <meta name="description" content="Latest insights, tips, and trends in digital marketing from the Vyaapar Buddy team." />
+        <title>Blog | Vyapaar Buddy</title>
+        <meta name="description" content="Latest insights, tips, and trends in digital marketing from the Vyapaar Buddy team." />
       </Head>
 
       <main className={styles.blogContainer}>

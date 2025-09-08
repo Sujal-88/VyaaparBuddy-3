@@ -68,8 +68,8 @@ export default function PortfolioPage() {
   return (
     <>
       <Head>
-        <title>Our Work | Vyaapar Buddy</title>
-        <meta name="description" content="Explore a selection of our finest projects at Vyaapar Buddy." />
+        <title>Our Work | Vyapaar Buddy</title>
+        <meta name="description" content="Explore a selection of our finest projects at Vyapaar Buddy." />
       </Head>
 
       <main className={styles.portfolioContainer}>
