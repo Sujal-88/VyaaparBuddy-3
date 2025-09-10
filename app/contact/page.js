@@ -79,7 +79,7 @@ export default function ContactPage() {
                         </div>
                         <div className={styles.infoItem}>
                             <FaEnvelope className={styles.icon} />
-                            <span>HarshDaund@vyapaarbuddy.com</span>
+                            <span>thevyapaarbuddy@gmail.com</span>
                         </div>
                         <div className={styles.infoItem}>
                             <FaMapMarkerAlt className={styles.icon} />
